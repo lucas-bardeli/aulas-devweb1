@@ -7,7 +7,7 @@
         <!-- CSS interno -> tag style no head -->
         <style>
             /* 
-                Existem 3 formas de aplicar o CSS em elementos: 
+                Existem 3 formas de APLICAR o CSS em elementos: 
                 tag -> Utillizando diretamente o nome da tag. Ex: b{...}
                 .classe -> Criamos uma classe para reaproveitar o mesmo css em vários locais. Ex: .azul{...}
                 #id -> Definimos um id para o elemento, aplica somente a ele, só podendo haver 1 id com aquele nome. Ex: #logo{...}
@@ -34,7 +34,22 @@
             .fundo-azul {
                 background-color: #00f;
             }
+
+            #quadrado {
+                background-color: green;
+                height: 100px;
+                width: 100px;
+                border-radius: 20px;
+            }
+
         </style>
+
+        <!-- CSS externo -> adiciona arquivos .css à página -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Este deve ser o primeiro css da página (aqui está errado!) -->
+        <link rel="stylesheet" href="css/reset.css">
+
     </head>
 
     <body>
@@ -70,9 +85,14 @@
             No meio do texto <i class="texto-verde"> também pode!</i>
         </p>
 
-        <p class="texto-amarelo texto-verde">
+        <p class="texto-amarelo">
             Bem vindo ao mundo do CSS.
             <b style="font-size: 50px;">Onde alteramos tudo!</b>
         </p>
+
+        <div id="quadrado">
+            <!-- O id precisa ser único na página! -->
+        </div>
+
     </body>
 </html>
