@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>CSS</title>
+        <meta charset="utf-8">
+
+        <!-- CSS interno -> tag style no head -->
+        <style>
+            /* 
+                Existem 3 formas de aplicar o CSS em elementos: 
+                tag -> Utillizando diretamente o nome da tag. Ex: b{...}
+                .classe -> Criamos uma classe para reaproveitar o mesmo css em vários locais. Ex: .azul{...}
+                #id -> Definimos um id para o elemento, aplica somente a ele, só podendo haver 1 id com aquele nome. Ex: #logo{...}
+            */
+
+            b {
+                font-weight: normal;
+                color: #f00; /* Cor simplificada: ff 00 00 */
+                font-style: italic;
+            }
+
+            .texto-verde {
+                color: green !important;
+            }
+
+            .texto-amarelo {
+                color: yellow;
+            }
+
+            .fundo-vermelho {
+                background: #f00;
+            }
+
+            .fundo-azul {
+                background-color: #00f;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Aula sobre CSS</h1>
+
+        <!-- CSS inline -> Direto no elemento html -->
+        <p style="color: #116359"> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laudantium deserunt sed quidem consectetur, suscipit ex aut omnis eligendi dolorum repellat, reiciendis non! Enim ut laudantium blanditiis, cupiditate repellat rerum.
+        </p>
+
+        <p style="text-align: center; font-weight: 900;">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias minima odit corporis, quas ullam possimus sapiente fugit praesentium sequi consequuntur, eum nisi recusandae officia ducimus. Optio aperiam cumque sint accusantium!
+        </p>
+
+        <p>
+            Texto que era para ser negrito: <b>Olá CSS!</b>
+        </p>
+        
+        <b>
+            Também sou negrito!
+        </b> <br>
+
+        <!-- Para utilizar classes utilizamos a propriedade class -->
+        <b class="texto-amarelo fundo-vermelho">
+            Eu mudei utilizando classes!
+        </b> <br>
+
+        <b class="texto-verde fundo-azul">
+            Mudando novamente as cores
+        </b> <br>
+
+        <p>
+            No meio do texto <i class="texto-verde"> também pode!</i>
+        </p>
+
+        <p class="texto-amarelo texto-verde">
+            Bem vindo ao mundo do CSS.
+            <b style="font-size: 50px;">Onde alteramos tudo!</b>
+        </p>
+    </body>
+</html>
