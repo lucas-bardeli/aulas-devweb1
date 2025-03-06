@@ -1,0 +1,15 @@
+.texto-verde {
+    color: green;
+}
+
+.texto-amarelo {
+    color: #FFC72C;
+}
+
+.texto-laranja {
+    color: orangered;
+}
+
+.texto-centralizado {
+    text-align: center;
+}
