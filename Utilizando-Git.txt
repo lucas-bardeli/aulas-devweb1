@@ -1,0 +1,49 @@
+-> Navegando no cmd
+cd nome_da_pasta  // entra na pasta
+cd ..             // volta uma pasta
+cd /              // leva para o C:
+
+-> Configura o pc com o nome e email do responsável pelo código 
+git config --global user.name "Lucas Bardeli de Bastiani Silva"
+git config --global user.email lucas.silva1111@fatec.sp.gov.br
+
+-> Para abrir a ferramenta Vs Code
+code .
+
+-> Incializa um repositório git
+git init
+
+-> Renomear o branch localmente
+git branch -m master main
+
+Passo a passo do GitHub: 
+git remote add origin caminho-do-repositorio.git
+git branch -M main
+git push -u origin main
+
+-> Verificar o status do repositório 
+git status
+
+-> Sincroniza sem alterar a pasta local verificando mudanças no GitHub
+git fetch
+
+-> Salvar o arquivo primeiramente
+Ctrl s 
+
+-> Adicionar os novos arquivos no git para versionar 
+git add .
+
+-> Salva uma versão dos arquivos 
+git commit -m "Menssagem"
+
+-> Envia informação do computador para a nuvem 
+git push
+
+-> Clona o repositório para uma pasta já existente
+git clone caminho-do-repositorio
+
+-> Baixa a atualização dos arquivos do github para uma pasta já existente
+git pull caminho-do-repositorio
+
+Mais comandos em: 
+https://training.github.com/downloads/pt_BR/github-git-cheat-sheet/
