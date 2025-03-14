@@ -5,14 +5,15 @@
     --navbar-bg: #fee345;
     --card-bg: #c4c4c4;
     --footer-bg: #fee345;
-    --logo-color: #001689;
+    --logo-bottom-color: #001689;
 
     /* Tema Escuro */
     body.dark-mode {
         --bg-color: #000;
         --text-color: #fff;
-        --navbar-bg: #1f1f1f;
+        --navbar-bg: #001689;
         --card-bg: #1e1e1e;
-        --footer-bg: #1f1f1f;
+        --footer-bg: #001689;
+        --logo-bottom-color: #fee345;
     }
 }

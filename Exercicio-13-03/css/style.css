@@ -12,7 +12,7 @@ body {
 }
 
 .navbar .logo {
-    color: var(--logo-color);
+    color: var(--logo-bottom-color);
     font-weight: 1000;
     font-size: 1.5rem;
 }
@@ -56,7 +56,7 @@ footer {
 .dark-mode-toggle {
     cursor: pointer;
     padding: 10px 20px;
-    background-color: var(--text-color);
+    background-color: var(--logo-bottom-color);
     color: var(--bg-color);
     border-radius: 10px;
 }
