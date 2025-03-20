@@ -10,11 +10,13 @@ h1 {
 
 form {
     display: flex;
+    /* Define o espaço entre todos os elementos dentro do formulário de forma universal */
     gap: 10px;
     margin-bottom: 20px;
 }
 
 input[type="text"] {
+    /* Faz o input crescer até ocupar todo o espaço disponível */
     flex: 1;
     padding: 8px;
 }
