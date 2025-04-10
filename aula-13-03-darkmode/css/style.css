@@ -1,3 +1,4 @@
+
 body {
     /* Para usar variáveis utilizamos o var(--nome) */
     background-color: var(--bg-color);
