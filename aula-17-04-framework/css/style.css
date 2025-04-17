@@ -1,0 +1,9 @@
+
+.btn-pink {
+    background-color: #ff12ff;
+    color: #fff;
+}
+
+.btn-pink:hover {
+    background-color: #9b019b;
+}
