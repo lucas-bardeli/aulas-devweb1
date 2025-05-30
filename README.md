@@ -1,7 +1,9 @@
 
-## Projetos das aulas de Desenvolvimento Web 1 da Fatec de Jahu
+## 💻 Aulas DevWeb1
 
-Você pode acompanhar os projetos através do seguinte link:
+Projetos das minhas aulas de Desenvolvimento Web 1 da Fatec de Jahu.
+
+🔗 Você pode visualizar os projetos através do seguinte link:
 ```
-    https://lucas-bardeli.github.io/aulas-devweb1/
+https://lucas-bardeli.github.io/aulas-devweb1/
 ```
