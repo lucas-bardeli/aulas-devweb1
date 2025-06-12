@@ -1,0 +1,55 @@
+
+.box {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.louquinho {
+    background: #0f0;
+    animation-name: loucura;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: alternate;
+}
+
+.ease-in-out {
+    background-color: #ff0;
+    animation: correr 3s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: alternate;
+}
+
+.ease-out {
+    background-color: #f00;
+    animation: correr 3s ease-out;
+    animation-iteration-count: infinite;
+    animation-duration: alternate;
+    animation-delay: 1s;
+}
+
+@keyframes correr {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(700px);
+    }
+}
+
+@keyframes loucura {
+    0% {
+        transform: translateX(0) scale(2);
+    }
+    25% {
+        transform: translateX(calc(100vw - 200px)) rotate(180deg);
+    }
+    50% {
+        transform: translate(0, calc(100vh - 200px));
+    }
+    100% {
+        transform: translate(calc(100vw - 200px0), calc(100vh - 200px)) scale(0.5);
+    }
+}
