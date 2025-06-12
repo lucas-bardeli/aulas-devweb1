@@ -9,7 +9,7 @@ $('#cep').on('blur', function() {
             dataType: 'json',
             success: function(retorno) {
                 if (retorno.erro) {
-                    alert(retorno.erro);
+                    alert("CEP não encontrado! " + retorno.erro);
                 }
                 else {
                     $('#rua').val(retorno.logradouro);
